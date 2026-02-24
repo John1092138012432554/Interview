@@ -6,8 +6,9 @@ Instructor: Holtslander
 """
 
 def factorial():
-    # Write your code here
-
+       cal = int(input("Enter a non-negative whole number on the line below:\n"))
+    for x in range(cal):
+        print(f"{x} * {x-x}")
 
 # You should not need to change any code below this point
 def main():
@@ -19,4 +20,5 @@ def main():
     print("Thank you for using this factorial calculator!")
 
 if __name__ == "__main__":
+
     main()
